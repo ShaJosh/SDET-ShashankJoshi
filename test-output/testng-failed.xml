@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pavanpatil.Data_Provider_2">
+      <class name="pavanpatil.Fethdata_Excel">
         <methods>
-          <include name="testcity1" invocation-numbers="3 4"/>
+          <include name="getDataFromExcel"/>
         </methods>
-      </class> <!-- pavanpatil.Data_Provider_2 -->
+      </class> <!-- pavanpatil.Fethdata_Excel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
