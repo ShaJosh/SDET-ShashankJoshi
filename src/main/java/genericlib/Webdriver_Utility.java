@@ -51,7 +51,7 @@ public class Webdriver_Utility {
 	}
 
 	/**
-	 * Select elemet from dd by index
+	 * Select element from drop down by index
 	 * 
 	 * @param element
 	 * @param index
@@ -62,7 +62,7 @@ public class Webdriver_Utility {
 	}
 
 	/**
-	 * @author Shashank Select element from dd by value
+	 * @author Shashank Select element from drop down by value
 	 * @param element
 	 * @param value
 	 */
@@ -89,7 +89,7 @@ public class Webdriver_Utility {
 	}
 
 	/**
-	 * switch frame bywebelement
+	 * switch frame by web element
 	 * 
 	 * @param driver
 	 * @param frameElement
@@ -132,7 +132,7 @@ public class Webdriver_Utility {
 	}
 
 	/**
-	 * Switch tom desired windows
+	 * Switch to desired windows
 	 * 
 	 * @param driver
 	 * @param windowtitleexp

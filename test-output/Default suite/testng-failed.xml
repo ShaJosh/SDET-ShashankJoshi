@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pavanpatil.Fethdata_Excel">
+      <class name="scripts.TestCase_06">
         <methods>
-          <include name="getDataFromExcel"/>
+          <include name="closeBrowser"/>
+          <include name="logintoapp"/>
+          <include name="logoutfromApp"/>
+          <include name="launchBrowser"/>
+          <include name="PurchaseOrder"/>
         </methods>
-      </class> <!-- pavanpatil.Fethdata_Excel -->
+      </class> <!-- scripts.TestCase_06 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

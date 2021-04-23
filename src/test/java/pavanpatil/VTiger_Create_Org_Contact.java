@@ -35,7 +35,7 @@ public class VTiger_Create_Org_Contact {
 			String childWindow = childWin.next();
 			if (!parent.equalsIgnoreCase(childWindow)) {
 				driver.switchTo().window(childWindow);
-				driver.findElement(By.id("search_txt")).sendKeys("Champa");
+				driver.findElement(By.id("search_txt")).sendKeys("TYSS");
 				driver.findElement(By.xpath("//input[@name='search']")).click();
 				Thread.sleep(3000);
 				driver.findElement(By.xpath("//a[@id='1']")).click();
